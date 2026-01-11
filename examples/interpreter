@@ -1,0 +1,14 @@
+#!/bin/bash
+
+for script in $*
+do
+  out=`dirname $script`/`basename $script .sh`.txt
+  echo $script '=>' $out
+  (
+    while read line
+    do
+      echo '$' "$line";
+      eval "$line"
+    done
+  ) < $script > $out
+done

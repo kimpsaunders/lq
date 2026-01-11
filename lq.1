@@ -1,0 +1,42 @@
+.TH LQ 1
+
+.SH NAME
+lq - link query utility
+
+.SH SYNOPSIS
+.B lq
+[\fIOPTION\fR]...  \fIFILE\fR...
+
+.SH DESCRIPTION
+Expand symbolic links exhaustively.
+
+.SH OPTIONS
+
+.TP
+.BR \-a ", " \-\-attributes=\fIATTRIBUTES\fR
+Capture ATTRIBUTES (a list of names, separated with /)
+
+.TP
+.BR \-d ", " \-\-delimiter=\fIDELIMITER\fR
+Use DELIMITER to separated captured attribute name/value pairs, instead of / (the default)
+
+.TP
+.BR \-e ", " \-\-expand
+Expand symbolic links, even if \fIATTRIBUTES\fR are specified with 
+.BR -a
+or
+.BR --attributes
+
+.SH OUTPUT
+
+When symbolic links are expanded, the name and target of each encountered symbolic link will be output,
+separated with an arrow, and indented to show the depth within the original \fIFILE\fR argument.
+
+If attributes are captured, names and captured values will be output, delimited with the \fIDELIMITER\fR value specified, or / (the default). 
+ 
+.SH AUTHOR
+Written by Kim Saunders 
+
+.SH SEE ALSO
+
+\fBreadlink\fR(1), \fBrealpath\fR(1)
