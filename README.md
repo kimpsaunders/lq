@@ -6,7 +6,7 @@
 
 `lq` - symbolic link query
 
-H1 SYNOPSIS
+# SYNOPSIS
 
 `lq [SYMBOLIC LINK]...`
 
@@ -293,7 +293,6 @@ run on it.
 Using a custom database, or yaml/json/xml/etc file would mean that only
 applications, languages, and libraries that understand that custom
 format can be aware of the metadata stored that way.
-
 
 # AUTHOR
 
