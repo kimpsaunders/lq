@@ -1,14 +1,5 @@
-lq (0.0.3-1) UNRELEASED; urgency=low
+lq (0.0.4-1) UNRELEASED; urgency=low
 
-  * Initial release. Closes: #nnnn
-    <nnnn is the bug number of your ITP>
-
- -- Kim Saunders <kimpsaunders@gmail.com>  Sat, 10 Jan 2026 20:06:56 -0500
-
-
-lq (0.0.1-1) UNRELEASED; urgency=low
-
-  * Initial release. Closes: #nnnn
-    <nnnn is the bug number of your ITP>
+  * Initial release. Closes: #1125348
 
  -- Kim Saunders <kimpsaunders@gmail.com>  Sat, 10 Jan 2026 20:06:56 -0500
