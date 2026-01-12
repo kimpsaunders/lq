@@ -12,7 +12,8 @@ H1 SYNOPSIS
 
 # DESCRIPTION
 
-The `lq` tool exhaustively resolves, queries and displays symbolic links.
+The `lq` tool resolves and displays symbolic links and attributes
+encountered while resolving paths.
 
 # USE CASES
 
