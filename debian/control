@@ -15,4 +15,5 @@ Depends:
  ${misc:Depends},
  ${shlibs:Depends},
 Description: Symbolic link query tool.
-  The lq tool resolves and displays symbolic links and attributes encountered while resolving paths.
+ The lq tool resolves and displays symbolic links and attributes
+ encountered while resolving paths.
