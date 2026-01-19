@@ -8,7 +8,7 @@ Standards-Version: 4.7.0
 Homepage: https://github.com/kimpsaunders/lq/
 Rules-Requires-Root: no
 
-Package: lq
+Package: link-query
 Architecture: any
 Multi-Arch: foreign
 Depends:
