@@ -1,4 +1,4 @@
-link-query (0.0.4-1) UNRELEASED; urgency=low
+link-query (0.0.4-1) unstable; urgency=low
 
   * Initial release. Closes: #1125348
 
