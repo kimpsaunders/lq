@@ -4,8 +4,6 @@ SRCS=devino.c lq.c
 OBJS=$(patsubst %.c,%.o,$(SRCS))
 MANS=$(LQ).1.gz
 
-CFLAGS=-Wall -pedantic -g
-
 all: $(LQ) $(MANS)
 
 $(LQ): $(OBJS)
