@@ -7,7 +7,6 @@ MANS=$(LQ).1.gz
 all: $(LQ) $(MANS)
 
 $(LQ): $(OBJS)
-	$(CC) -o $@ $^
 
 install: $(LQ) $(MANS)
 	install -D $(LQ) $(DESTDIR)$(prefix)/usr/bin/$(LQ)
